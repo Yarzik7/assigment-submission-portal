@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Section>
       <SectionInnerContainer>
-        <div>
+        <div className="p-[20px] bg-bgSecondary rounded-radius">
          <Form/>
         </div>
       </SectionInnerContainer>

@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss';
 
 export default {
   content: [
@@ -19,7 +19,7 @@ export default {
         primary: 'var(--primary)',
         secondary: 'var(--secondary)',
         secondaryLight: 'var(--secondary-light)',
-        radius: 'var(--border-radius)',
+        error: 'var(--error)',
       },
       borderRadius: {
         radius: 'var(--border-radius)',
@@ -28,7 +28,7 @@ export default {
         function: 'var(--timing-function)',
       },
       transitionDuration: {
-        duration: '200ms',
+        duration: 'var(--transition-duration)',
       },
     },
   },
