@@ -4,4 +4,6 @@ const levels: ILevels = {
   levels: ["Junior", "Middle", "Senior", "Principle"],
 };
 
-export { levels };
+const BASE_INPUT_CLASSES: string = "w-full h-[40px] px-[8px] bg-bgSecondary border border-secondary rounded-radius hover:border-secondaryLight focus:outline-none focus:outline-blue-500 placeholder:text-secondary";
+
+export { levels, BASE_INPUT_CLASSES };

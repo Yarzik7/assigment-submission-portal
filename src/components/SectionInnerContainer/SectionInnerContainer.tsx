@@ -5,7 +5,7 @@ interface ISectionInnerContainerProps {
 }
 
 const SectionInnerContainer = ({ children }: ISectionInnerContainerProps) => {
-  return <div>{children}</div>;
+  return <div className="my-0 mx-auto px-[15px] sm:max-w-[480px]">{children}</div>;
 };
 
 export default SectionInnerContainer;
