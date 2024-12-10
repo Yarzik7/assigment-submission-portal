@@ -16,6 +16,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: 'Assignment submission portal',
   description: 'Assignment submission portal',
+  icons: { icon: '/favicon.ico' },
 };
 
 export default function RootLayout({
