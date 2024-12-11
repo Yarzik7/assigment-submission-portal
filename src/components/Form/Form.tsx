@@ -28,7 +28,7 @@ const Form = ({ levels }: IFormProps) => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors, isValid },
   } = useForm<IFormState>({
     resolver: joiResolver(formSchema),
     mode: 'all',
@@ -101,7 +101,7 @@ const Form = ({ levels }: IFormProps) => {
 
       {isError && <AppMessage type="error">Failed to send assignment data!</AppMessage>}
 
-      <Button type="submit" disabled={isSubmitting}>
+      <Button type="submit" disabled={isSubmitting || !isValid}>
         Submit
         {isSubmitting && <Loader />}
       </Button>
