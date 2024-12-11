@@ -2,10 +2,10 @@
 
 1. **Clone the repository to your local machine:**
 
-   ```bash
-   git clone https://github.com/Yarzik7/assignment-submission-portal.git
-   cd assignment-submission-portal
-   ```
+```bash
+git clone https://github.com/Yarzik7/assignment-submission-portal.git
+cd assignment-submission-portal
+```
 
 2. **Install the dependencies:**
 
