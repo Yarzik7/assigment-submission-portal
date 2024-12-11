@@ -53,6 +53,7 @@ const Form = ({ levels }: IFormProps) => {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <fieldset disabled={isSubmitting} className="flex flex-col gap-[18px] mb-[30px]">
+        <legend className="visually-hidden">Assignment form</legend>
         <Input<IFormState>
           label="Name"
           name="name"

@@ -72,7 +72,7 @@ const Select = <T extends FieldValues>({ label, name, placeholder, options, regi
         )}
       </div>
 
-      <button type="button" onClick={onToggleShowOptions} className="absolute w-[40px] h-[40px] bottom-0 right-0">
+      <button type="button" onClick={onToggleShowOptions} className="absolute w-[40px] h-[40px] bottom-0 right-0 rounded-radius">
         <FaChevronDown />
       </button>
       {errors[name] && <FieldMessage message={errors[name]?.message?.toString() ?? ''} />}

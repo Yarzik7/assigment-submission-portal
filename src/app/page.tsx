@@ -13,6 +13,7 @@ export default async function Home() {
     <Section>
       <SectionInnerContainer>
         <div className="p-[20px] bg-bgSecondary rounded-radius">
+          <h1 className='mb-[10px] text-[20px] text-center'>Assignment form</h1>
           {'levels' in levelsResponse ? (
             <Form levels={levelsResponse.levels} />
           ) : (
