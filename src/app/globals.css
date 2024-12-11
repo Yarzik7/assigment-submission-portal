@@ -19,6 +19,27 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 8px;
 
   border: none;
+
+  &:disabled {
+    background-color: var(--disabled);
+
+    &:hover {
+      background-color: var(--disabled);
+      cursor: default;
+    }
+  }
 }
+
+input:disabled,
+textarea:disabled {
+  background-color: var(--disabled);
+
+  &:hover {
+    background-color: var(--disabled);
+    cursor: default;
+  }
+}
+/* https://tools.qa.public.ale.ai/api/tools/candidates/levels */

@@ -20,6 +20,8 @@ export default {
         secondary: 'var(--secondary)',
         secondaryLight: 'var(--secondary-light)',
         error: 'var(--error)',
+        success: 'var(--success)',
+        info: 'var(--info)',
       },
       borderRadius: {
         radius: 'var(--border-radius)',

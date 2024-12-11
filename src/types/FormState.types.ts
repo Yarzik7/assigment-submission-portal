@@ -1,6 +1,6 @@
 type TLevels = 'Junior' | 'Middle' | 'Senior' | 'Principle';
 
-interface ILevels {
+interface ILevelsResponse {
   levels: TLevels[];
 }
 
@@ -12,4 +12,4 @@ interface IFormState {
   candidate_level: TLevels;
 }
 
-export type { TLevels, ILevels, IFormState };
+export type { TLevels, ILevelsResponse, IFormState };
